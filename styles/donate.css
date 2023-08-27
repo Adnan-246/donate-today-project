@@ -248,9 +248,11 @@ background: rgba(79, 157, 166, 0.10);
 /* Contribute section styles */
 .contribute{
   display: flex;
+  padding-bottom: 67px;
+  justify-content: 10px;
 }
 .contribute .contribute-plan .contribute-plan-title{
-  width: 492px;
+  width: 420px;
   height: 108px;
   color: #121212;
   font-family: Inter;
