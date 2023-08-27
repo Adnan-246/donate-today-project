@@ -2,6 +2,7 @@
   margin: 0;
   font-family: Inter;
 }
+/* Header Styles */
 .banner{
   width: 1480px;
   height: 670px;
@@ -11,7 +12,7 @@
   background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
   background-image: url('../images/donation7.jpg');
   background-repeat: no-repeat;
-  /* background-position: center; */
+  padding-bottom: 130px;
   
 }
 .banner .banner-title{
@@ -54,4 +55,189 @@
   padding: 18px 35px;
   border: 0;
   
+}
+
+/* main section styles */
+.main{
+  padding-top: 130px;
+  padding-left: 200px;
+  background: #FFF;
+}
+.donate .donate-title{
+  color: #121212;
+  padding-left: 568px;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 25px;
+
+}
+.donate .donate-description{
+  width: 691px;
+  height: 56px;
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 375px;
+  padding-bottom: 50px;
+}
+.donate .donate-package{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding-bottom: 60px;
+}
+.donate-package .donate-package-list{
+  width: 135px;
+  height: 123px;
+  border-radius: 5px;
+  background: #FAFAFA;
+}
+.donate-package .donate-package-list-d{
+  width: 135px;
+  height: 123px;
+  border-radius: 5px;
+  border: 2px solid #FF5959;
+  background: #FEE;
+}
+.donate-package .donate-package-list .list-amount{
+    width: 86px;
+    height: 36px;
+    color: #707070;
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: 700;
+    padding: 43px 5px 44px 24px;
+}
+.donate .donate-package .donate-package-list-d .list-amount-d{
+  width: 86px;
+  height: 36px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 43px 5px 44px 24px;
+}
+.donate .amount{
+  display: flex;
+  justify-content: center;
+  
+}
+.donate .amount .other-amount{
+  color: #B3B3B3;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+/* horizontal line*/
+hr{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.donate .amount-button{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 130px;
+}
+
+/* Donate Plan section styles */
+.donate-plan .donate-plan-items{
+  display: flex;
+  padding-left: 157px;
+  gap: 25px;
+  
+}
+.donate-plan .donate-plan-title{
+  width: 357px;
+  height: 54px;
+  color: #121212;
+  padding-left: 542px;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.donate-plan .donate-plan-description{
+  width: 691px;
+  height: 56px;
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 375px;
+  padding-bottom: 50px;
+}
+.donate-plan-items .donate-plan-item-1{
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+background: rgba(79, 157, 166, 0.10);
+}
+.donate-plan-items .donate-plan-item-2{
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+  background: rgba(255, 89, 89, 0.10);
+
+}
+.donate-plan-items .donate-plan-item-3{
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+  background: #FFF4D6;
+}
+.donate-plan-items .donate-plan-item-1 .plan-item-title{
+  width: 204px;
+  height: 36px;
+  color: #121212;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 23px;
+  padding-bottom: 16px;
+}
+.donate-plan-items .donate-plan-item-2 .plan-item-title{
+  width: 230px;
+  height: 36px;
+  color: #121212;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-bottom: 16px;
+}
+.donate-plan-items .donate-plan-item-3 .plan-item-title{
+  width: 250px;
+  height: 36px;
+  color: #121212;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 23px;
+  padding-bottom: 16px;
+}
+.donate-plan-items .donate-plan-item-1 .plan-item-description{
+  width: 315px;
+  height: 101px;
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 25px;
+}
+.donate-plan-items .donate-plan-item-2 .plan-item-description{
+  width: 315px;
+  height: 101px;
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 25px;
+}
+.donate-plan-items .donate-plan-item-3 .plan-item-description{
+  width: 315px;
+  height: 101px;
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 25px;
+}
+.donate-plan .icon{
+  width: 60px;
+  height: 50px;
+  padding-left: 23px;
+  padding-top: 60px;
+  padding-bottom: 32px;
 }
