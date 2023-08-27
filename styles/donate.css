@@ -140,6 +140,9 @@ hr{
 }
 
 /* Donate Plan section styles */
+.donate-plan{
+  padding-bottom: 182px;
+}
 .donate-plan .donate-plan-items{
   display: flex;
   padding-left: 157px;
@@ -240,4 +243,47 @@ background: rgba(79, 157, 166, 0.10);
   padding-left: 23px;
   padding-top: 60px;
   padding-bottom: 32px;
+}
+
+/* Contribute section styles */
+.contribute{
+  display: flex;
+}
+.contribute .contribute-plan .contribute-plan-title{
+  width: 492px;
+  height: 108px;
+  color: #121212;
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 700;
+  padding-left: 157px;
+  padding-bottom: 20px;
+}
+.contribute .contribute-plan .contribute-plan-description{
+  width: 482px;
+  height: 84px;
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 157px;
+  padding-bottom: 20px;
+}
+.contribute .button-contribute{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.contribute .button-contribute .btn-contribute{
+  width: 230px;
+  height: 56px;
+  border-radius: 5px;
+  background: #FF5959;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+}
+.contribute .contribute-image{
+  width: 825px;
+  height: 550px;
 }
