@@ -289,3 +289,26 @@ background: rgba(79, 157, 166, 0.10);
   width: 825px;
   height: 550px;
 }
+
+/* Update plan styles */
+.update-plan .update-plan-title{
+  width: 353px;
+  height: 54px;
+  color: #121212;
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 700;
+  padding-left: 544px;
+  padding-bottom: 20px;
+}
+.update-plan .update-plan-description{
+  width: 691px;
+  height: 56px;
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 375px;
+  padding-bottom: 50px;
+}
+
+/* Subscribe styles */
