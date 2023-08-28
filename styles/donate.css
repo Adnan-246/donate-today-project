@@ -344,3 +344,39 @@ background: rgba(79, 157, 166, 0.10);
 }
 
 /* Footer styles */
+.footer-section{
+ width: 100%;
+ height: 230px;
+ border: 0;
+ /* margin-left: 80px; */
+ background: var(--default-black, #0B0D17);
+ margin-bottom: 15px;
+}
+.footer{
+  width: 180px;
+  height: 92px;
+  padding: 43px 600px 42px 720px;
+}
+.footer-title{
+  height: 44px;
+  color: #FF5959;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.footer-description{
+  color: var(--text-gray-300, #D9DBE1);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+.author{
+  text-align: right;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  color: #FF5959;
+  padding-right: 50px;
+}
